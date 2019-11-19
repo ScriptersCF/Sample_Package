@@ -1,7 +1,7 @@
 -- The module that is accessed when `require("sample")` is used.
 
-local Scripts = require(script.Parent.Scripts)
+local Scripts = script.Parent:WaitForChild("Scripts")
 
 return {
-    Print = Scripts.Print
+	Print = require(Scripts.Print)
 }
