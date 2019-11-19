@@ -3,5 +3,5 @@
 local Scripts = script.Parent:WaitForChild("Scripts")
 
 return {
-	Print = require(Scripts.Print)
+    Print = require(Scripts.Print)
 }
